@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+  nav {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .navigation {
+    display: flex !important;
+    flex-direction: row;
+  }
+
+  #hamburger-menu {
+    display: none;
+  }
+
+  .grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+  }
+}
