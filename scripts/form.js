@@ -32,7 +32,7 @@ footerDate.textContent = `© ${currentYear} | Last Modified: ${lastModified}`;
     name: "warp equalizer",
     averagerating: 5.0
   }
-  ]
+  ];
 
   const productSelect = document.getElementById("product");
 
