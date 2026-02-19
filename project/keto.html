@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diets</title>
+  <meta name="description" content="WDD131 - Mpumelelo Hlongwane">
+  <meta name="author" content="Mpumelelo Hlongwane">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/styles-large.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="scripts/diet.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="images/logo.jpg" alt="recipe library" class="logo">
+    <h1>Diets</h1>
+    <p class="tagline">Healthy Made Simple, Delicious Made Possible.</p>
+
+   <button id="hamburger-menu" aria-label="Toggle Menu">☰</button>
+    <nav class="navigation">
+        <a href="homepage.html">Home</a>
+        <a href="vegan.html">Vegan</a>
+        <a href="keto.html">Keto</a>
+        <a href="mediterranean.html">Mediterranean</a>
+        
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+    <picture>
+        <source srcset="images/hero5.webp" media="(min-width: 1000px)">
+        <source srcset="images/hero5.webp" media="(min-width: 600px)">
+        <img src="images/hero5.webp" alt="pic7" width="1000" height="600">
+      </picture>
+
+      <div class="meal-info">
+        <h2>Keto Meals</h2>
+        <p>Welcome to Keto Made Simple!  
+Discover delicious, low-carb recipes and meal plans designed to keep you energized and on track with your ketogenic lifestyle. Whether you’re new to keto or a seasoned pro, our site offers easy-to-follow guides, tasty dishes, and practical tips to help you enjoy the benefits of a high-fat, low-carb way of eating. Dive in and see how satisfying keto living can be!</p>
+        
+      </div>
+   </div>
+
+   <div class="main">
+   <div class="grid">
+   <figure data-id="1">
+    <a href="https://sl.bing.net/gE4C6F0gejs">
+    <img src="images/keto1.jpg" alt="main" width="250" height="200" loading="lazy"><p>Nachos Bell Peppers</p> 
+    </a>
+    <button class="fav-btn">❤️Add to Favorites</button>
+   </figure>
+
+   <figure data-id="2">
+    <a href="https://sl.bing.net/bqpBS7S6NjM">
+    <img src="images/keto2.jpg" alt="main" width="250" height="200" loading="lazy"><p>Bunless Burger</p> 
+    </a>
+    <button class="fav-btn">❤️Add to Favorites</button>
+   </figure>
+
+   <figure data-id="3">
+    <a href="https://sl.bing.net/d3uDLEYR9Ii">
+    <img src="images/Keto3.jpg" alt="main" width="250" height="200" loading="lazy"><p>Chicken Wings</p> 
+    </a>
+    <button class="fav-btn">❤️Add to Favorites</button>
+   </figure>
+
+   <figure data-id="4">
+    <a href="https://sl.bing.net/dH1ZgTuFDO0">
+    <img src="images/keto4.jpg" alt="main" width="250" height="200" loading="lazy"><p>Peanut Butter Chicken Curry</p> 
+    </a>
+    <button class="fav-btn">❤️Add to Favorites</button>
+   </figure>
+
+   <figure data-id="5">
+    <a href="https://sl.bing.net/hk2V9wbKrlI">
+    <img src="images/keto5.jpg" alt="main" width="250" height="200" loading="lazy"><p>Creamy Skillet Chicken</p> 
+    </a>
+    <button class="fav-btn">❤️Add to Favorites</button>
+   </figure>
+
+   <figure data-id="6">
+    <a href="https://sl.bing.net/hP9jGkOJk6K">
+    <img src="images/keto6.jpg" alt="main" width="250" height="200" loading="lazy"><p>Garlic Chicken with Broccoli and Spinach</p> 
+    </a>
+    <button class="fav-btn">❤️Add to Favorites</button>
+   </figure>
+
+   <section id="favorites-section">
+    <h2>Saved Favorites 🍽️</h2>
+    <ul id="favorites-list"></ul>
+   </section>
+
+   </div>
+   </div>
+  </main>
+
+  <footer>
+    <p>Diets. All rights reserved.</p>
+    <p id="lastModified">Last Modified:</p>
+    <p>Design: Mpumelelo Hlongwane</p>
+  </footer>
+</body>
+</html>

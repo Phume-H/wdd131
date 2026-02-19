@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diets</title>
+  <meta name="description" content="WDD131 - Mpumelelo Hlongwane">
+  <meta name="author" content="Mpumelelo Hlongwane">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/styles-large.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="scripts/diet.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="images/logo.jpg" alt="Diets" class="logo">
+    <h1>Diets</h1>
+    <p class="tagline">Healthy Made Simple, Delicious Made Possible.</p>
+    
+    <button id="hamburger-menu" aria-label="Toggle Menu">☰</button>
+    <nav class="navigation">
+        <a href="homepage.html">Home</a>
+        <a href="vegan.html">Vegan</a>
+        <a href="keto.html">Keto</a>
+        <a href="mediterranean.html">Mediterranean</a>
+        
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+    <picture>
+        <source srcset="images/hero7.webp" media="(min-width: 1000px)">
+        <source srcset="images/hero7.webp" media="(min-width: 600px)">
+        <img src="images/hero7.webp" alt="pic7" width="1000" height="600">
+      </picture>
+
+      <div class="meal-info">
+        <h2>Mediterranean Meals</h2>
+        <p>Welcome to Taste of the Mediterranean!  
+        Step into a world of vibrant flavors and wholesome ingredients inspired by the Mediterranean lifestyle. Our site brings you fresh recipes, balanced meal plans, and nutrition tips rooted in the traditions of coastal living. Whether you’re seeking heart-healthy dishes, family-friendly meals, or simply a taste of sunshine on your plate, you’ll find everything you need to enjoy the benefits of Mediterranean cooking.</p>
+       
+        
+      </div>
+   </div>
+
+   <div class="main">
+   <div class="grid">
+   <figure data-id="19">
+    <a href="https://sl.bing.net/kQtaLqK7U4q">
+    <img src="images/mediterranean1.jpg" alt="main" width="250" height="200" loading="lazy"><p>Mediterranean Pasta</p> 
+    </a>
+    <button class="fav-btn">❤️Add to Favorites</button>
+   </figure>
+
+   <figure data-id="20">
+    <a href="https://sl.bing.net/ii6sxU22WkK">
+    <img src="images/mediterranean2.jpg" alt="main" width="250" height="200" loading="lazy"><p>Baked Cod with Lemon and Garlic</p> 
+    </a>
+    <button class="fav-btn">❤️Add to Favorites</button>
+   </figure>
+
+   <figure data-id="21">
+    <a href="https://sl.bing.net/e7Cb6HI7nFI">
+    <img src="images/mediterranean3.jpg" alt="main" width="250" height="200" loading="lazy"><p>Grrek Chicken Thighs With Feta Cheese </p> 
+    </a>
+    <button class="fav-btn">❤️Add to Favorites</button>
+   </figure>
+
+   <figure data-id="22">
+    <a href="https://sl.bing.net/O2su8YuJNc">
+    <img src="images/mediterranean4.jpg" alt="main" width="250" height="200" loading="lazy"><p>Lemon Herb Mediterranean Chicken + Potatoes </p> 
+    </a>
+    <button class="fav-btn">❤️Add to Favorites</button>
+   </figure>
+
+   <figure data-id="23">
+    <a href="https://sl.bing.net/2xlotDk1PE">
+    <img src="images/mediterranean5.jpg" alt="main" width="250" height="200" loading="lazy"><p>Greek Orzo Salad</p> 
+    </a>
+    <button class="fav-btn">❤️Add to Favorites</button>
+   </figure>
+
+   <figure data-id="24">
+    <a href="https://sl.bing.net/ky849w3vkoS">
+    <img src="images/mediterranean6.jpg" alt="main" width="250" height="200" loading="lazy"><p>Mediterranean Shrimp</p> 
+    </a>
+    <button class="fav-btn">❤️Add to Favorites</button>
+   </figure>
+
+   <section id="favorites-section">
+    <h2>Saved Favorites 🍽️</h2>
+    <ul id="favorites-list"></ul>
+
+  </section>
+
+   </div>
+   </div>
+  </main>
+
+  <footer>
+    <p>Diets. All rights reserved.</p>
+    <p id="lastModified">Last Modified:</p>
+    <p>Design: Mpumelelo Hlongwane</p>
+  </footer>
+</body>
+</html>
